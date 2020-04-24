@@ -1,32 +1,33 @@
 <!DOCTYPE HTML>
 <html lang="en-us">
+
 <head>
-<meta charset="utf-8">
-<title>Template</title>
+    <meta charset="utf-8">
+    <title>Template</title>
 
-<script>
+    <script>
+        function template() {
 
-function template() {
+            let variable = document.getElementById('nameInputBox').value;
 
-    let variable = document.getElementById('nameInputBox').value;
-    
-    let template = "You are a " + variable +"."
+            let template = "You are" + variable + "."
 
-    document.getElementById('output').innerHTML = template;
-}
-</script>
+            document.getElementById('output').innerHTML = template;
+        }
+    </script>
 </head>
 
-<body>  
-<h2>Title Of Page</h2>        
-         
-User Input: <input type="text" id="nameInputBox">
-<br>    
-<button type="button" onclick="template()">Click Here</button>
+<body>
+    <h2>Title Of Page</h2>
+
+    Name: <input type="text" id="nameInputBox">
+    <br>
+    <button type="button" onclick="template()">Click Here</button>
 
 
 
-<div id="output"></div>
+    <div id="output"></div>
 
-</body>       
+</body>
+
 </html>
