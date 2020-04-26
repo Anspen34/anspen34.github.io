@@ -20,21 +20,27 @@ footer {
     text-align: center;
 }
 img {
-    float: left;
+    float: right;
     height: 150px;
     width: 100px;
     margin-top: -60px;
-    margin-left: 12px;
+    margin-right: 12px;
 }
 main {
     margin: 10px;
     height: 100px;
-    width: 300px;
-    text-align: right;
+    width: 400px;
+    text-align: left;
 }
 ul {
     list-style: none;
 }
 a {
     color: navy;
+}
+h3 {
+    border-bottom: 2px solid black;
+}
+footer a {
+    color: white;
 }
