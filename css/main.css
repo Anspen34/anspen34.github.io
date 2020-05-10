@@ -20,7 +20,7 @@ header {
     padding-bottom: 5px;
     width: 500px;
     height: auto;
-    color: rgb(221, 114, 38);
+    color: rgb(231, 131, 59);
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
 }
@@ -31,14 +31,13 @@ footer {
     padding: 10px;
     width: 480px;
     height: 60px;
-    color: rgb(221, 114, 38);
+    color: rgb(231, 131, 59);
     text-align: center;
     font-family: 'Monda', sans-serif;
 }
 header img {
     height: 130px;
     width: 100px;
-
 }
 main {
     margin: 10px;
