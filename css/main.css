@@ -1,3 +1,17 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    margin-top: 0px;
+}
+
+body {
+    display: table-cell;
+    vertical-align: top;
+}
 header {
     font-size: 15px;
     border-radius: 25px;
@@ -5,9 +19,10 @@ header {
     padding-top: 5px;
     padding-bottom: 5px;
     width: 500px;
-    height: 60px;
+    height: auto;
     color: #D36517;
     text-align: center;
+    font-family: 'Archivo Black', sans-serif;
 }
 footer {
     font-size: 15px;
@@ -18,19 +33,19 @@ footer {
     height: 60px;
     color: #D36517;;
     text-align: center;
+    font-family: 'Monda', sans-serif;
 }
-img {
-    float: right;
-    height: 140px;
+header img {
+    height: 130px;
     width: 100px;
-    margin-top: -60px;
-    margin-right: 12px;
+    
 }
 main {
     margin: 10px;
     height: 100px;
     width: 400px;
     text-align: left;
+    font-family: 'Monda', sans-serif;
 }
 ul {
     list-style: none;

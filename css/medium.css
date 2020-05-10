@@ -1,0 +1,9 @@
+@media only screen and (min-width: 32.5em) {
+    header img {
+        float: right;
+        height: auto;
+        width: 125px;
+        margin-top: -20px;
+        margin-right: 5px;
+    }
+}
