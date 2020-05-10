@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
     <meta charset="utf-8">
@@ -7,6 +7,7 @@
     <meta name="author" content="Aaron Spencer">
     <meta name="description" content="Assignment portal for Aaron Spencer class WDD 230 at BYUI.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="/main.css">
 </head>
 
@@ -25,14 +26,14 @@
         </nav>
     </main>
     <footer>
-        <p>&copy;<span id="copyright"></span> | Aaron N. Spencer | Morelia | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p>&copy;<span id="copyright"></span> | Aaron N. Spencer | Morelia | <a href="https://www.byui.edu/online">BYUI
+                Online Learning</a></p>
         LastModified: <span id="lastUpdate"></span>
     </footer>
-</body>
-
-<script>
+    <script>
         document.getElementById("copyright").innerHTML = new Date().getFullYear();
         document.getElementById("lastUpdate").innerHTML = document.lastModified;
-</script>
+    </script>
+</body>
 
 </html>
