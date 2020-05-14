@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Site Plan</title>
+    <meta name="author" content="Aaron Spencer">
+    <meta name="description" content="Plan for Weather Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/medium.css">    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Monda|Patua+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Aaron N. Spencer</h1>
+        <img alt="Image of me" src="images/me2.jpg">
+    </header>
+    <main>
+        <h>WDD 230 Assigments</h3>
+        <nav>
+            <ul>
+                <li>Lesson 2: <a href="/lesson2/design-principles.html">Assignment Link</a></li>
+                <li>Lesson 3: <a href="aboutme.html">Assignment Link</a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <p>&copy;<span id="copyright"></span> | Aaron N. Spencer | Morelia | <a href="https://www.byui.edu/online">BYUI
+                Online Learning</a></p>
+        LastModified: <span id="lastUpdate"></span>
+    </footer>
+    <script>
+        document.getElementById("copyright").innerHTML = new Date().getFullYear();
+        document.getElementById("lastUpdate").innerHTML = document.lastModified;
+    </script>
+</body>
+
+</html>
