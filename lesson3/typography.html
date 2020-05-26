@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Site Plan</title>
+    <meta name="author" content="Aaron Spencer">
+    <meta name="description" content="Plan for Weather Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral&family=Varela&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Typography</h1>
+        <nav>
+            <ul>
+                <li><a href="/anspen34.github.io/lesson3/index.html">Home</a></li>
+                <li><a href="/anspen34.github.io/lesson3/target-audience.html">Target Audience</a></li>
+                <li><a href="/anspen34.github.io/lesson3/color-scheme.html">Color Scheme</a></li>
+                <li><a href="/anspen34.github.io/lesson3/typography.html">Typography</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Typography</h2>
+        <p>The fonts I chose are simple. I wanted to show a contrast. Thats why I have sans-serif and serif fonts. The
+            contrast will help the website look clearer and call one's attention.</p>
+        <ul>
+            <li>Karla, sans-serif</li>
+            <li>Spectral, serif</li>
+            <li>Varela, sans-serif</li>
+        </ul>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="copyright"></span> | Aaron N. Spencer | Morelia | <a href="https://www.byui.edu/online">BYUI
+                Online Learning</a></p>
+        LastModified: <span id="lastUpdate"></span>
+        <p><a href="/anspen34.github.io/index.html">Home</a></p>
+    </footer>
+    <script>
+        document.getElementById("copyright").innerHTML = new Date().getFullYear();
+        document.getElementById("lastUpdate").innerHTML = document.lastModified;
+    </script>
+</body>
+
+</html>
